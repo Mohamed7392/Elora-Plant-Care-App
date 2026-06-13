@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1012287349760",
+    "project_id": "plant-app-bce7b",
+    "storage_bucket": "plant-app-bce7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012287349760:android:a10e6def51b38453e024e5",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSZCK4xCBlIIgcg30dNP_86L3vJuFZIV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
