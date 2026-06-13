@@ -1,51 +1,37 @@
-Elora Plant Care App
+# 🌿 Elora Plant Care App
 
-Overview
+A cross-platform mobile application built with Flutter and Node.js, developed as a university project. Elora helps users manage their plants, view care information, and receive watering reminders.
 
-Elora is a plant care mobile application developed as a university project using Flutter for the frontend and Node.js for the backend. The application helps users manage plants, view plant information, and receive care reminders.
-
-Features
-
-- Plant management system
+## Features
+- User authentication (login & registration)
 - Plant information catalog
-- User authentication
-- Watering reminders
-- Mobile-friendly user interface
+- Watering reminders and notifications
+- Cart and order management
+- My Garden page to track owned plants
+- Admin panel for product management
 - Backend REST API integration
 
-Technologies Used
+## Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Frontend | Flutter (Dart) |
+| Backend | Node.js + Express.js |
+| Database | MongoDB + Mongoose |
+| Auth & Storage | Firebase |
+| API Testing | Postman |
 
-Frontend
-
-- Flutter
-- Dart
-
-Backend
-
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-
-Backend Functionality
-
-- CRUD APIs for application entities
-- RESTful API architecture
-- Database integration using Mongoose
+## Backend Architecture
+- RESTful API with routes, controllers, models, and middleware
+- CRUD operations for all application entities
 - Data validation and error handling
-- Query filtering using query parameters
-- Organized project structure using routes, controllers, models, and middleware
-- API testing using Postman
+- Query filtering via query parameters
 
-Project Structure
+## Getting Started
+1. Clone the repository
+2. Run `flutter pub get` in the Frontend folder
+3. Run `npm install` in the Backend folder
+4. Add your own `google-services.json` to `android/app/`
+5. Run `node server.js` to start the backend
 
-- Controllers
-- Models
-- Routes
-- Middlewares
-- Configuration files
-- Frontend Flutter application
-
-Academic Project
-
-Developed as part of university coursework with frontend and backend integration.
+## Academic Context
+Developed as part of university coursework at Assiut University — Business Information Systems program.
